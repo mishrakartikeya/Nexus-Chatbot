@@ -227,3 +227,8 @@ __pycache__/
 .idea/
 .vscode/
 .DS_Store
+
+# Local data, uploads, and vector stores
+/data/
+*.pkl
+*.faiss
