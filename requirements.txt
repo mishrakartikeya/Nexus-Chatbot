@@ -13,4 +13,5 @@ numpy
 pandas
 requests
 duckduckgo-search
+google-generativeai
 tenacity
