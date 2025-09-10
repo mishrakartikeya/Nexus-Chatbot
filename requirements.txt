@@ -15,3 +15,5 @@ requests
 duckduckgo-search
 google-generativeai
 tenacity
+langchain-community
+tavily-python
