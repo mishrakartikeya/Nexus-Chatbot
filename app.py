@@ -76,7 +76,7 @@ def get_chat_response(chat_model, messages, system_prompt, retriever=None, user_
 
 def chat_page():
     """Main chat interface page"""
-    st.title("🤖 AI ChatBot")
+    st.title("🤖 Nexus ChatBot")
 
     st.sidebar.divider()
     st.sidebar.header("📝 Response Style")
@@ -181,3 +181,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
