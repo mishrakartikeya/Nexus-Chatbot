@@ -73,6 +73,10 @@ def get_chat_response(chat_model, messages, system_prompt, retriever=None, user_
         logging.error(f"Error in get_chat_response: {str(e)}")
         return f"I'm sorry, an error occurred: {str(e)}", []
 
+def instructions_page():
+    st.title("The Chatbot Blueprint")
+    st.markdown("Welcome! Follow these instructions to set up and use the chatbot.")
+
 
 def chat_page():
     """Main chat interface page"""
@@ -181,4 +185,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
